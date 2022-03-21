@@ -19,17 +19,17 @@ function (person, petName){
 
 | Input           | Output                 |
 | --------------- | ---------------------- |
-|`"Tim", "Parker"`  |`{ name: "Parker" }`  | 
-|`"Kurt", "Flora"`  |`{ name: "Flora" }`   | 
-|`"Jane", "Pupperz"`|`{ name: "Pupperz" }` | 
+|`"Tim", "Parker"`  |`1`  | 
+|`"Kurt", "Flora"`  |`2`   | 
+|`"Jane", "Pupperz"`|`3` | 
 
 <table>
   <tr>
     <th>What does this program do?</th>
     <td>1). The function accepts two arguments: a person, and a pet name.<br>
-2). The For loop iterates through every dog in person.dogs, with dogs being a property of person.<br>
-3). If there is a dog who's property of "name" matches petName, that dog is returned.<br>
-Summary: This program could be used by a veterinary clinic. The dog object is nested inside of the person object. It searches through a list of dogs for a dog with a property of "name" that matches petName. It then returns the name of the dog associated with the person.</td>
+2). The For loop iterates through every dog in person.dogs, with dogs being a nested object within person.<br>
+3). If there is a dog who's property of "name" matches petName, that dog's index is returned.<br>
+Summary: The dog object is nested inside of the person object. It searches through a list of dogs for a dog with a property of "name" that matches petName. It then returns the index of the dog associated with the person.</td>
   </tr>
 </table>
 
