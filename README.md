@@ -29,7 +29,7 @@ function (person, petName){
     <td>1). The function accepts two arguments: a person, and a pet name.<br>
 2). The For loop iterates through every dog in person.dogs, with dogs being a nested object within person.<br>
 3). If there is a dog who's property of "name" matches petName, that dog's index is returned.<br>
-Summary: The dog object is nested inside of the person object. It searches through a list of dogs for a dog with a property of "name" that matches petName. It then returns the index of the dog associated with the person.</td>
+Summary: The dogs object is nested inside of the person object. It searches through dogs for one with a property of "name" that matches petName. It then returns the index of the dog associated with the person.</td>
   </tr>
 </table>
 
