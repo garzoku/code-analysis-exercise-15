@@ -19,9 +19,9 @@ function (person, petName){
 
 | Input           | Output                 |
 | --------------- | ---------------------- |
-|`"Tim", "Parker"`  |`{ name: "Parker" }`  | 
-|`"Kurt", "Flora"`  |`{ name: "Flora" }`    | 
-|`"Jane", "Pupperz"`|`{ name: "Pupperz }`  | 
+|`Tim, "Parker"`  |`{ name: "Parker" }`  | 
+|`Kurt, "Flora"`  |`{ name: "Flora" }`    | 
+|`Jane, "Pupperz"`|`{ name: "Pupperz }`  | 
 
 <table>
   <tr>
